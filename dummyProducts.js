@@ -20,7 +20,7 @@ export default [
       rom: "128gb",
       ram: "4gb",
     },
-    img: "https://www.mrgadget.co.ug/wp-content/uploads/2021/10/poco-m3..jpg",
+    img: "https://freebiescloud.com/wp-content/uploads/2020/11/5.png",
     quantity: 1,
   },
   {
@@ -32,7 +32,7 @@ export default [
       rom: "128gb",
       ram: "8gb",
     },
-    img: "https://www.gizmochina.com/wp-content/uploads/2020/09/1-16-500x500.jpg",
+    img: "https://th.bing.com/th/id/R.d8cee78f00e1d5ef9cdea49c1b7a8af1?rik=2kKtZ%2bSRf2CxoQ&pid=ImgRaw&r=0",
     quantity: 1,
   },
   {
@@ -44,7 +44,7 @@ export default [
       rom: "256gb",
       ram: "8gb",
     },
-    img: "https://www.excelestore.com.bd/public/uploads/all/dUPPjYAaZ3hklobyHajrLMs1I5LCPAgcNtOmMh2b.webp",
+    img: "https://freebiescloud.com/wp-content/uploads/2020/11/5.png",
     quantity: 1,
   },
   {
@@ -56,7 +56,7 @@ export default [
       rom: "256gb",
       ram: "8gb",
     },
-    img: "https://www.excelestore.com.bd/public/uploads/all/elthMTUhVIu0teYEwxm3tGqpkd4OP5pTj1iyHVdH.webp",
+    img: "https://freebiescloud.com/wp-content/uploads/2020/11/5.png",
     quantity: 1,
   },
   {
@@ -68,7 +68,7 @@ export default [
       rom: "64gb",
       ram: "2gb",
     },
-    img: "https://www.gizmochina.com/wp-content/uploads/2017/09/iPhone-X-Profile-Page-550x550.jpg",
+    img: "https://th.bing.com/th/id/R.d8cee78f00e1d5ef9cdea49c1b7a8af1?rik=2kKtZ%2bSRf2CxoQ&pid=ImgRaw&r=0",
     quantity: 1,
   },
   {
@@ -80,7 +80,7 @@ export default [
       rom: "128gb",
       ram: "6gb",
     },
-    img: "https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-Pro.jpg",
+    img: "https://th.bing.com/th/id/R.d8cee78f00e1d5ef9cdea49c1b7a8af1?rik=2kKtZ%2bSRf2CxoQ&pid=ImgRaw&r=0",
     quantity: 1,
   },
   {
@@ -92,7 +92,7 @@ export default [
       rom: "128gb",
       ram: "6gb",
     },
-    img: "https://www.mobilebazar.com.bd/assets/img/Realme-C15-Qualcomm-Edition-Official-image-499x499.webp",
+    img: "https://th.bing.com/th/id/R.d8cee78f00e1d5ef9cdea49c1b7a8af1?rik=2kKtZ%2bSRf2CxoQ&pid=ImgRaw&r=0",
     quantity: 1,
   },
 ];
