@@ -20,7 +20,7 @@ const ProductBox = ({ product }) => {
               dispatch(addToCart(product));
               toast.success("Added to cart", {
                 id: "anik",
-                duration: 500,
+                duration: 900,
               });
             }}
             title="Click here to add cart"
@@ -41,6 +41,7 @@ const ProductBox = ({ product }) => {
           </span>
           <Toaster />
         </div>
+        <Toaster position="bottom-right" />
       </div>
       <div className="product-toper">
         <span className="footer-item">&#2547; {product.price}</span>
@@ -69,6 +70,7 @@ const ProductBox = ({ product }) => {
           </svg>
         </span>
       </div>
+      <Toaster />
       <div className="product-details">
         <b>Specification:</b>
         <p>
@@ -84,7 +86,6 @@ const ProductBox = ({ product }) => {
           {product.properties.ram}
         </p>
       </div>
-      <Toaster />
     </div>
   );
 };
