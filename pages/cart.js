@@ -57,30 +57,34 @@ const cartPage = () => {
                       </div>
                       <span id="item-title">{item?.title}</span>
                     </div>
-                    <div className="cart-item-second-col">
-                      <span>&#2547; {item?.price}</span>
-                    </div>
-                    <div className="cart-item-third-col">
-                      <span
-                        onClick={() => {
-                          dispatch(decreaseItemQuantity(item?.id));
-                          const filteredItem = cart.filter(
-                            (element) => element.id != item.id
-                          );
-                          localStorage.setItem(
-                            "cart",
-                            JSON.stringify(filteredItem)
-                          );
-                        }}
-                        className="dec-icon">
-                        -
-                      </span>
-                      <span>{item?.quantity}</span>
-                      <span
-                        onClick={() => dispatch(increaseItemQuantity(item?.id))}
-                        className="inc-icon">
-                        +
-                      </span>
+                    <div className="price-quantity">
+                      <div className="cart-item-second-col">
+                        <span>&#2547; {item?.price}</span>
+                      </div>
+                      <div className="cart-item-third-col">
+                        <span
+                          onClick={() => {
+                            dispatch(decreaseItemQuantity(item?.id));
+                            const filteredItem = cart.filter(
+                              (element) => element.id != item.id
+                            );
+                            localStorage.setItem(
+                              "cart",
+                              JSON.stringify(filteredItem)
+                            );
+                          }}
+                          className="dec-icon">
+                          -
+                        </span>
+                        <span>{item?.quantity}</span>
+                        <span
+                          onClick={() =>
+                            dispatch(increaseItemQuantity(item?.id))
+                          }
+                          className="inc-icon">
+                          +
+                        </span>
+                      </div>
                     </div>
                     <div className="cart-item-fourth-col">
                       <span
